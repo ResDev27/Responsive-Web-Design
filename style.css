@@ -1,30 +1,10 @@
-body {
-   background-color: rgb(123, 197, 240);
-}
-
-@media only screen and (max-width: 768px) {
-   body {
-      background-color: rgb(149, 196, 106);
-   }
-}
-
 @media only screen and (max-width: 500px) {
    body {
       background-color: rgb(184, 59, 59);
    }
-}
-.small {
-   font-family: Arial, Helvetica, sans-serif;
-}
-
-.medium{ 
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.large {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-@media only screen and (max-width: 500px) {
+   .small {
+      font-family: Arial, Helvetica, sans-serif;
+   }
    .medium {
       display: none;
       }
@@ -34,15 +14,34 @@ body {
    }
 
 @media only screen and (min-width: 501px) and (max-width: 768px) {
+   body {
+      background-color: rgb(149, 196, 106);
+   }
+   .medium{ 
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .p1 {
+      width: 66.66%;
+   }
+   .p2{
+      width: 33.33%;
+   }
    .small {
       display: none;
       }
    .large {
       display : none;
       }
-   }    
+   }
+
 
 @media only screen and (min-width: 768px) {
+   body {background-color: rgb(123, 197, 240);
+   }
+   .large {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: flex;
+   }   
    .small {
       display: none;
       }
