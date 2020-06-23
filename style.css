@@ -13,3 +13,33 @@ body {
       background-color: rgb(184, 59, 59);
    }
 }
+
+@media only screen and (max-width: 500px) {
+   .medium {
+      display: none;
+      }
+   .large {
+      display : none;
+      }
+   }
+
+@media only screen and (min-width: 501px) {
+   .small {
+      display: none;
+      }
+   .large {
+      display : none;
+      }
+   }    
+
+@media only screen and (min-width: 768px) {
+   .small {
+      display: none;
+      }
+   .medium {
+      display: none;
+   }
+   .large {
+      display: flex;
+   }
+   }
